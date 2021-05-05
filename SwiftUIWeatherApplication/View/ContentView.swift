@@ -29,7 +29,7 @@ struct ContentView: View {
                     Text("LOCATION")
                         
                     HStack {
-                        TextField("Enter Location", text: $forecastListVM.location,
+                        TextField("LOCATION", text: $forecastListVM.location,
                                   onCommit: {
                                     forecastListVM.getWeatherForecast()
                                   })
@@ -128,8 +128,8 @@ struct ContentView_Previews: PreviewProvider {
 
 //MARK:-
 /*Reference: - Paul Hudson(100 days of swift)
-             - Stewart Lynch(CreaTech)
              - CodeWithChris
+             - CreaTech
              - Open Weather
              - https://appicon.co
              - https://jsonformatter.curiousconcept.com

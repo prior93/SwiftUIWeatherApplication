@@ -36,9 +36,10 @@ struct Forecast: Codable {
 
 //MARK:-
 /*Reference: - Paul Hudson(100 days of swift)
-             - Stewart Lynch(CreaTech)
              - CodeWithChris
+             - CreaTech
              - Open Weather
              - https://appicon.co
              - https://jsonformatter.curiousconcept.com
 */
+
